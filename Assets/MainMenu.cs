@@ -9,4 +9,9 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("SampleScene");
     }
+
+    public void Settings()
+    {
+        SceneManager.LoadScene("Settings");
+    }
 }
